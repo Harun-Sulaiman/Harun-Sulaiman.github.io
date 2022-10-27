@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
                    
        {/*pc screen*/}
-           <ul className='hidden md:flex mr-[150px]'>
+           <ul className='hidden md:flex mr-[50px]'>
                 <li>Home</li>
                 <li>Skills</li>
                 <li>Projects</li>
@@ -55,14 +55,14 @@ const Navbar = () => {
             </a>
           </li>
 
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2a0c46] '>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#a855f7] '>
             <a className='flex justify-between items-center w-full text-gray-300' 
             href='/'>
               Email <HiOutlineMail size={30} />
             </a>
           </li>
 
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#125055] '>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#ec4899] '>
             <a className='flex justify-between items-center w-full text-gray-300' 
             href='/'>
               Resume <BsFillPersonLinesFill size={30} />
