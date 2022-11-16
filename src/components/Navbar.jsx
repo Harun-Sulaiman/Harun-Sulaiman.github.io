@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaFacebook } from 'react-icons/fa';
 import {HiOutlineMail} from 'react-icons/hi'
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import Logo from '../assets/logo4.png';
+import {Link} from 'react-scroll'
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -18,10 +19,10 @@ const Navbar = () => {
                    
        {/*pc screen*/}
            <ul className='hidden md:flex mr-[50px]'>
-                <li>Home</li>
-                <li>Skills</li>
-                <li>Projects</li>
-                <li>Contact</li>
+                <li><Link to='home' smooth={true} duration={500}>Home</Link></li>
+                <li><Link to='skills' smooth={true} duration={500}>Skills</Link></li>
+                <li><Link to='Projects' smooth={true} duration={500}>Projects</Link></li>
+                <li><Link to='contact' smooth={true} duration={500}>Contact</Link></li>
             </ul> 
        
 
@@ -32,10 +33,10 @@ const Navbar = () => {
       {/*mobile screen*/}
            <ul className={!nav ? 'hidden' :
             'absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-500 ... flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'>Home</li>
-                <li className='py-6 text-4xl'>Skills</li>
-                <li className='py-6 text-4xl'>Projects</li>
-                <li className='py-6 text-4xl'>Contact</li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to='home' smooth={true} duration={500}>Home</Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500}>Skills</Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to='Projects' smooth={true} duration={500}>Projects</Link></li>
+                <li className='py-6 text-4xl'><Link onClick={handleClick} to='contact' smooth={true} duration={500}>Contact</Link></li>
             </ul> 
    
       {/*icons*/}
