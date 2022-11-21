@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-2 
     bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-500 ... 
     text-white'>
         <div>

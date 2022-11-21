@@ -4,7 +4,7 @@ import WorkImg from '../assets/WorkImg.jpg'
 
 const Projects = () => {
   return (
-    <div name='Projects' className='w-full md:h-screen text-gray-300 bg-[#0a192f]'>
+    <div name='Projects' className='w-full md:h-screen text-gray-300 bg-[#0f2649]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600'>Projects</p>
@@ -14,7 +14,7 @@ const Projects = () => {
             {/*container*/}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-                {/*grid item*/}    
+                {/*project 1*/}    
                 <div 
                 style={{backgroundImage:`url(${WorkImg})`}} 
                 className='shadow-md shadow-[#64aaff] group container rounded-md flex justify-center items-center mx-auto content-div'>
@@ -35,6 +35,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
+                <div>
+                    <p>testing</p>
+                </div>
+
+                {/*project 2*/}    
                 <div 
                 style={{backgroundImage:`url(${WorkImg})`}} 
                 className='shadow-md shadow-[#64aaff] group container rounded-md flex justify-center items-center mx-auto content-div'>
