@@ -18,7 +18,7 @@ const Navbar = () => {
         </div>
                    
        {/*pc screen*/}
-           <ul className='hidden md:flex mr-[50px]'>
+           <ul className='font-semibold hidden md:flex mr-[50px]'>
                 <li><Link to='home' smooth={true} duration={500}>Home</Link></li>
                 <li><Link to='skills' smooth={true} duration={500}>Skills</Link></li>
                 <li><Link to='Projects' smooth={true} duration={500}>Projects</Link></li>
@@ -33,10 +33,10 @@ const Navbar = () => {
       {/*mobile screen*/}
            <ul className={!nav ? 'hidden' :
             'absolute top-0 left-0 w-full h-screen bg-gradient-to-r from-indigo-700 via-purple-500 to-pink-500 ... flex flex-col justify-center items-center'}>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to='home' smooth={true} duration={500}>Home</Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to='skills' smooth={true} duration={500}>Skills</Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to='Projects' smooth={true} duration={500}>Projects</Link></li>
-                <li className='py-6 text-4xl'><Link onClick={handleClick} to='contact' smooth={true} duration={500}>Contact</Link></li>
+                <Link onClick={handleClick} to='home' smooth={true} duration={500}><li className='bg-[#0b1f3d] rounded-md w-[150px] px-6 py-3 my-2 flex items-center text-2xl'>Home</li></Link>
+                <Link onClick={handleClick} to='skills' smooth={true} duration={500}><li className='bg-[#0b1f3d] rounded-md w-[150px] px-6 py-3 my-2 flex items-center text-2xl'>Skills</li></Link>
+                <Link onClick={handleClick} to='Projects' smooth={true} duration={500}><li className='bg-[#0b1f3d] rounded-md w-[150px] px-6 py-3 my-2 flex items-center text-2xl'>Projects</li></Link>
+                <Link onClick={handleClick} to='contact' smooth={true} duration={500}><li className='bg-[#0b1f3d] rounded-md w-[150px] px-6 py-3 my-2 flex items-center text-2xl'>Contact</li></Link>
             </ul> 
    
       {/*icons*/}
