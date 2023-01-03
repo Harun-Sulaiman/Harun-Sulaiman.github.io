@@ -1,5 +1,6 @@
 import React from 'react'
 import WorkImg from '../assets/WorkImg.jpg'
+import mypage from '../assets/mypage.JPG'
 
 
 const Projects = () => {
@@ -17,13 +18,13 @@ const Projects = () => {
                     <article>
                         {/*original 1*/ }
                         <div 
-                            style={{backgroundImage:`url(${WorkImg})`}} 
+                            style={{backgroundImage:`url(${mypage})`}} 
                             className='shadow-md shadow-[#64aaff] group container rounded-md flex justify-center items-center mx-auto content-div'>
                                 {/*hover*/}
                                 <div className='opacity-0 group-hover:opacity-100'>
-                                    <div className='pt-8 text-center'>
+                                    <div className='pt-1 text-center'>
                                         <a href='/'>
-                                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Demo</button>
+                                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Live</button>
                                         </a>
                                         <a href='/'>
                                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Code</button>
@@ -31,8 +32,11 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        <p className='text-2xl text-center text-white tracking-wider py-3'>
-                            React JS Application
+                        <p className='text-2xl text-center text-gray-300 pt-3'>
+                            My Portfolio
+                        </p>
+                        <p className=' text-center text-gray-300'>
+                            Tech Stack: React, Javascript, Html, Tailwind Css.
                         </p>
                     </article>
                 </div>
@@ -44,18 +48,19 @@ const Projects = () => {
                             className='shadow-md shadow-[#64aaff] group container rounded-md flex justify-center items-center mx-auto content-div'>
                                 {/*hover*/}
                                 <div className='opacity-0 group-hover:opacity-100'>
-                                    <div className='pt-8 text-center'>
+                                    <div className='pt-1 text-center'>
+                                
                                         <a href='/'>
-                                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Demo</button>
-                                        </a>
-                                        <a href='/'>
-                                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Code</button>
+                                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Live</button>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                        <p className='text-2xl text-center text-white tracking-wider py-3'>
-                            React JS Application
+                        <p className='text-2xl text-center text-gray-300 pt-3'>
+                            Landing Page
+                        </p>
+                        <p className=' text-center text-gray-300'>
+                            Tech: Wix
                         </p>
                     </article>
                 </div>
@@ -67,18 +72,18 @@ const Projects = () => {
                             className='shadow-md shadow-[#64aaff] group container rounded-md flex justify-center items-center mx-auto content-div'>
                                 {/*hover*/}
                                 <div className='opacity-0 group-hover:opacity-100'>
-                                    <div className='pt-8 text-center'>
+                                    <div className='pt-1 text-center'>
                                         <a href='/'>
-                                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Demo</button>
-                                        </a>
-                                        <a href='/'>
-                                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Code</button>
+                                            <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Live</button>
                                         </a>
                                     </div>
                                 </div>
                             </div>
-                        <p className='text-2xl text-center text-white tracking-wider py-3'>
-                            React JS Application
+                        <p className='text-2xl text-center text-gray-300 pt-3'>
+                            E-commerce 
+                        </p>
+                        <p className=' text-center text-gray-300'>
+                            Tech: Wix
                         </p>
                     </article>
                 </div>
@@ -90,7 +95,7 @@ const Projects = () => {
                             className='shadow-md shadow-[#64aaff] group container rounded-md flex justify-center items-center mx-auto content-div'>
                                 {/*hover*/}
                                 <div className='opacity-0 group-hover:opacity-100'>
-                                    <div className='pt-8 text-center'>
+                                    <div className='pt-1 text-center'>
                                         <a href='/'>
                                             <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>View Demo</button>
                                         </a>
@@ -100,8 +105,11 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
-                        <p className='text-2xl text-center text-white tracking-wider py-3'>
-                            React JS Application
+                        <p className='text-2xl text-center text-gray-300 pt-3'>
+                            Food Order (Ongoing)
+                        </p>
+                        <p className=' text-center text-gray-300'>
+                            Tech Stack: Php, Html, Css, MySql.
                         </p>
                     </article>
                 </div>

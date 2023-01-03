@@ -5,7 +5,9 @@ import CSS from '../assets/css.png';
 import Javascript from '../assets/javascript.png';
 import Reactimg from '../assets/react.png';
 import Tailwind from '../assets/tailwind.png';
-import Nodejs from '../assets/node.png';
+import PHP from '../assets/php.png';
+import MYSQL from '../assets/mysql.png';
+
 
 
 const Skills = () => {
@@ -40,9 +42,13 @@ const Skills = () => {
                     <p className='my-2 '>TAILWIND</p>
                 </div>
                 <div className='hover:shadow-md hover:shadow-[#64aaff] shadow-lg shadow-[#050505] rounded-md hover:scale-110 duration-400'>
-                    <img className='py-2 w-20 mx-auto' src={Nodejs} alt="Nodejs icon" />
-                    <p className='my-2 '>NODE JS</p>
-                </div>                
+                    <img className='py-2 w-20 mx-auto' src={PHP} alt="Php icon" />
+                    <p className='my-2 '>PHP</p>
+                </div>
+                <div className='hover:shadow-md hover:shadow-[#64aaff] shadow-lg shadow-[#050505] rounded-md hover:scale-110 duration-400'>
+                    <img className='py-2 w-20 mx-auto' src={MYSQL} alt="Mysql icon" />
+                    <p className='my-2 '>MYSQL</p>
+                </div>                  
             </div>
         </div>
 
