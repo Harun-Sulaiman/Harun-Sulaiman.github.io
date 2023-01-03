@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.d7ba3ec3.css",
-    "main.js": "/static/js/main.105844d5.js",
-    "static/media/WorkImg.jpg": "/static/media/WorkImg.9bd33c15b6f15162b85f.jpg",
+    "main.css": "/static/css/main.bc11aa73.css",
+    "main.js": "/static/js/main.57dd28c5.js",
+    "static/media/promedicweb.JPG": "/static/media/promedicweb.bb936df2173bf33cb2fc.JPG",
+    "static/media/convemedweb.JPG": "/static/media/convemedweb.cdca6fe295bdaca585c3.JPG",
+    "static/media/mypage.JPG": "/static/media/mypage.19c385fa906895b63222.JPG",
+    "static/media/foodorder.JPG": "/static/media/foodorder.0928392b5921dd3b2c10.JPG",
     "static/media/react.png": "/static/media/react.0cf951a69d8e58f83f9d.png",
-    "static/media/node.png": "/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/php.png": "/static/media/php.4990580e9b615aeebb1f.png",
     "static/media/html.png": "/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/mysql.png": "/static/media/mysql.43dc9d7885f4f49c3b33.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.d7ba3ec3.css.map": "/static/css/main.d7ba3ec3.css.map",
-    "main.105844d5.js.map": "/static/js/main.105844d5.js.map"
+    "main.bc11aa73.css.map": "/static/css/main.bc11aa73.css.map",
+    "main.57dd28c5.js.map": "/static/js/main.57dd28c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7ba3ec3.css",
-    "static/js/main.105844d5.js"
+    "static/css/main.bc11aa73.css",
+    "static/js/main.57dd28c5.js"
   ]
 }
